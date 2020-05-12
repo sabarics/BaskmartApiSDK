@@ -225,7 +225,7 @@ public struct ProductCartData: Codable {
     public let locationStock: [LocationStock]?
     public let id, storeID, name, urlSlug,productId: String?
     public let selectedQuantity: Int?
-    public let productCategoryID: String?
+   // public let productCategoryID: String?
     public let parentSku, productDescription: String?
     public let displayImage: [DisplayImage]?
     public let sellingPrice: Double?
@@ -261,7 +261,7 @@ public struct ProductCartData: Codable {
         case storeID = "store_id"
         case name
         case urlSlug = "url_slug"
-        case productCategoryID = "product_category_id"
+      //  case productCategoryID = "product_category_id"
         case parentSku = "parent_sku"
         case productDescription = "description"
         case displayImage = "display_image"

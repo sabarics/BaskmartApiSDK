@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Baskmart"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Baskmart allows to access all baskmart API"
 
   # This description is used to generate tags and improve search results.

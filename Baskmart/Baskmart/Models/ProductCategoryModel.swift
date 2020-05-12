@@ -27,7 +27,7 @@ public struct ProductCategory: Codable {
     public let parentCategoryID: ChildProductCategory?
     public let productSEO: ProductSEO?
     public let commonTax, commonStock, commonPrice, isAvailable: Bool?
-    public let parentSku, productCategoryID: String?
+   // public let parentSku, productCategoryID: String?
     public let displayImage: [DisplayImage]?
     public let quantity, sellingPrice, compareAtPrice: Int?
     public let productMetaDatas: [ProductMetaData]?
@@ -57,8 +57,8 @@ public struct ProductCategory: Codable {
         case commonStock = "common_stock"
         case commonPrice = "common_price"
         case isAvailable = "is_available"
-        case parentSku = "parent_sku"
-        case productCategoryID = "product_category_id"
+ //       case parentSku = "parent_sku"
+       // case productCategoryID = "product_category_id"
         case displayImage = "display_image"
         case quantity
         case sellingPrice = "selling_price"
@@ -91,7 +91,7 @@ public struct ChildProductCategory: Codable {
     public let parentCategoryID: String?
     public let productSEO: ProductSEO?
     public let commonTax, commonStock, commonPrice, isAvailable: Bool?
-    public let parentSku, productCategoryID: String?
+   // public let parentSku, productCategoryID: String?
     public let displayImage: [DisplayImage]?
     public let quantity, sellingPrice, compareAtPrice: Int?
     public let productMetaDatas: [ProductMetaData]?
@@ -121,8 +121,8 @@ public struct ChildProductCategory: Codable {
         case commonStock = "common_stock"
         case commonPrice = "common_price"
         case isAvailable = "is_available"
-        case parentSku = "parent_sku"
-        case productCategoryID = "product_category_id"
+  //      case parentSku = "parent_sku"
+       // case productCategoryID = "product_category_id"
         case displayImage = "display_image"
         case quantity
         case sellingPrice = "selling_price"
