@@ -36,6 +36,7 @@ public struct Customer: Codable {
     public let storeData: StoreData?
     public let type: String?
     public let otherApplicationDetails: OtherApplicationDetails?
+    public let zuperUserId: String?
     
    public enum CodingKeys: String, CodingKey {
         case id = "_id"
@@ -59,6 +60,7 @@ public struct Customer: Codable {
         case storeData = "store_data"
         case type
         case otherApplicationDetails = "other_application_details"
+        case zuperUserId = "zuper_customer_uid"
     }
 }
 
