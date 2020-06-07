@@ -219,7 +219,7 @@ extension BaskmartApi{
                 return
             }
             
-            downloader.jsonPostTask(url: url, accesToken: accessToken, postData: postData, method: wsPOST) { (response) in
+            downloader.jsonPostTask(url: url, accesToken: accessToken, postData: postData, method: wsPUT) { (response) in
                 switch response {
                     
                 /// Error like Request failed,jsonConversionFailure,invalid data,jsonParsingFailure.offline
