@@ -89,9 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-
-
-  spec.source_files  = "Baskmart/**/*.swift"
+  spec.source_files  = "Baskmart/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   spec.platform     = :ios, "11.0"
