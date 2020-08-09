@@ -3,190 +3,262 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"Baskmart::BaskmartPackageTests::ProductTarget" /* BaskmartPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_36 /* Build configuration list for PBXAggregateTarget "BaskmartPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_39 /* PBXTargetDependency */,
+			);
+			name = BaskmartPackageTests;
+			productName = BaskmartPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		180A042B23F5B5E8004C56C6 /* Baskmart.h in Headers */ = {isa = PBXBuildFile; fileRef = 180A042923F5B5E8004C56C6 /* Baskmart.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		180A043323F5B626004C56C6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A043223F5B626004C56C6 /* Constants.swift */; };
-		180A043523F5B62C004C56C6 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A043423F5B62C004C56C6 /* Functions.swift */; };
-		180A043823F5B65E004C56C6 /* WebServiceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A043723F5B65E004C56C6 /* WebServiceWrapper.swift */; };
-		180A043B23F5C3BC004C56C6 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A043A23F5C3BC004C56C6 /* LoginModel.swift */; };
-		180A043D23F5C4BE004C56C6 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A043C23F5C4BE004C56C6 /* Configuration.swift */; };
-		180A044723F5CBF7004C56C6 /* BaskmartApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A044623F5CBF7004C56C6 /* BaskmartApi.swift */; };
-		180A044A23F5CCA2004C56C6 /* LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180A044923F5CCA2004C56C6 /* LoginModule.swift */; };
-		1868090123FFA96F00EED435 /* SubscriptionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868090023FFA96F00EED435 /* SubscriptionModule.swift */; };
-		1868090323FFA9BC00EED435 /* MySubscriptionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868090223FFA9BC00EED435 /* MySubscriptionModule.swift */; };
-		18BD8A2523FD002B009E2BA5 /* SignUpModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A2423FD002B009E2BA5 /* SignUpModule.swift */; };
-		18BD8A2723FD0587009E2BA5 /* UserModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A2623FD0587009E2BA5 /* UserModule.swift */; };
-		18BD8A2B23FD09E8009E2BA5 /* DeliveryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A2A23FD09E8009E2BA5 /* DeliveryModel.swift */; };
-		18BD8A2D23FD09FB009E2BA5 /* ProductCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A2C23FD09FB009E2BA5 /* ProductCategoryModel.swift */; };
-		18BD8A2F23FD0A5D009E2BA5 /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A2E23FD0A5D009E2BA5 /* PaymentModel.swift */; };
-		18BD8A3123FD0A62009E2BA5 /* OrderSummaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A3023FD0A62009E2BA5 /* OrderSummaryModel.swift */; };
-		18BD8A3323FD0A67009E2BA5 /* TrackOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A3223FD0A67009E2BA5 /* TrackOrderModel.swift */; };
-		18BD8A3523FD0A76009E2BA5 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A3423FD0A76009E2BA5 /* ProductsModel.swift */; };
-		18BD8A3723FD0A7C009E2BA5 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A3623FD0A7C009E2BA5 /* CartModel.swift */; };
-		18BD8A3923FD0A89009E2BA5 /* MySubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A3823FD0A89009E2BA5 /* MySubscriptionModel.swift */; };
-		18BD8A3B23FD0A8F009E2BA5 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A3A23FD0A8F009E2BA5 /* SubscriptionModel.swift */; };
-		18BD8A3D23FD0AA0009E2BA5 /* SliderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A3C23FD0AA0009E2BA5 /* SliderModel.swift */; };
-		18BD8A3F23FD0BBA009E2BA5 /* CustomerPaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A3E23FD0BBA009E2BA5 /* CustomerPaymentModel.swift */; };
-		18BD8A4723FD270A009E2BA5 /* ProductModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A4623FD270A009E2BA5 /* ProductModule.swift */; };
-		18BD8A4923FE4C1B009E2BA5 /* SlotModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A4823FE4C1B009E2BA5 /* SlotModule.swift */; };
-		18BD8A4B23FE4C47009E2BA5 /* CartModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A4A23FE4C47009E2BA5 /* CartModule.swift */; };
-		18BD8A4D23FE4C90009E2BA5 /* PaymentModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A4C23FE4C90009E2BA5 /* PaymentModule.swift */; };
-		18BD8A5123FE86C3009E2BA5 /* OrderModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD8A5023FE86C3009E2BA5 /* OrderModule.swift */; };
+		18076EC924DFD60D002E0A91 /* WebServiceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EAA24DFD60D002E0A91 /* WebServiceWrapper.swift */; };
+		18076ECA24DFD60D002E0A91 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EAB24DFD60D002E0A91 /* Configuration.swift */; };
+		18076ECB24DFD60D002E0A91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EAD24DFD60D002E0A91 /* Constants.swift */; };
+		18076ECC24DFD60D002E0A91 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EAE24DFD60D002E0A91 /* Functions.swift */; };
+		18076ECD24DFD60D002E0A91 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EB024DFD60D002E0A91 /* ProductsModel.swift */; };
+		18076ECE24DFD60D002E0A91 /* MySubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EB124DFD60D002E0A91 /* MySubscriptionModel.swift */; };
+		18076ECF24DFD60D002E0A91 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EB224DFD60D002E0A91 /* SubscriptionModel.swift */; };
+		18076ED024DFD60D002E0A91 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EB324DFD60D002E0A91 /* LoginModel.swift */; };
+		18076ED124DFD60D002E0A91 /* TrackOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EB424DFD60D002E0A91 /* TrackOrderModel.swift */; };
+		18076ED224DFD60D002E0A91 /* CustomerPaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EB524DFD60D002E0A91 /* CustomerPaymentModel.swift */; };
+		18076ED324DFD60D002E0A91 /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EB624DFD60D002E0A91 /* PaymentModel.swift */; };
+		18076ED424DFD60D002E0A91 /* SliderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EB724DFD60D002E0A91 /* SliderModel.swift */; };
+		18076ED524DFD60D002E0A91 /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EB824DFD60D002E0A91 /* CartModel.swift */; };
+		18076ED624DFD60D002E0A91 /* OrderSummaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EB924DFD60D002E0A91 /* OrderSummaryModel.swift */; };
+		18076ED724DFD60D002E0A91 /* DeliveryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EBA24DFD60D002E0A91 /* DeliveryModel.swift */; };
+		18076ED824DFD60D002E0A91 /* ProductCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EBB24DFD60D002E0A91 /* ProductCategoryModel.swift */; };
+		18076ED924DFD60D002E0A91 /* BaskmartApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EBC24DFD60D002E0A91 /* BaskmartApi.swift */; };
+		18076EDA24DFD60D002E0A91 /* CartModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EBF24DFD60D002E0A91 /* CartModule.swift */; };
+		18076EDB24DFD60D002E0A91 /* ProductModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EC024DFD60D002E0A91 /* ProductModule.swift */; };
+		18076EDC24DFD60D002E0A91 /* SlotModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EC124DFD60D002E0A91 /* SlotModule.swift */; };
+		18076EDD24DFD60D002E0A91 /* UserModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EC224DFD60D002E0A91 /* UserModule.swift */; };
+		18076EDE24DFD60D002E0A91 /* SignUpModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EC324DFD60D002E0A91 /* SignUpModule.swift */; };
+		18076EDF24DFD60D002E0A91 /* SubscriptionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EC424DFD60D002E0A91 /* SubscriptionModule.swift */; };
+		18076EE024DFD60D002E0A91 /* MySubscriptionModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EC524DFD60D002E0A91 /* MySubscriptionModule.swift */; };
+		18076EE124DFD60D002E0A91 /* LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EC624DFD60D002E0A91 /* LoginModule.swift */; };
+		18076EE224DFD60D002E0A91 /* PaymentModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EC724DFD60D002E0A91 /* PaymentModule.swift */; };
+		18076EE324DFD60D002E0A91 /* OrderModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18076EC824DFD60D002E0A91 /* OrderModule.swift */; };
+		OBJ_34 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_45 /* BaskmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* BaskmartTests.swift */; };
+		OBJ_46 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		OBJ_48 /* Baskmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Baskmart::Baskmart::Product" /* Baskmart.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		18076EA624DFD5C9002E0A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Baskmart::Baskmart";
+			remoteInfo = Baskmart;
+		};
+		18076EA724DFD5DE002E0A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Baskmart::BaskmartTests";
+			remoteInfo = BaskmartTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		180A042623F5B5E8004C56C6 /* Baskmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Baskmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		180A042923F5B5E8004C56C6 /* Baskmart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Baskmart.h; sourceTree = "<group>"; };
-		180A042A23F5B5E8004C56C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		180A043223F5B626004C56C6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		180A043423F5B62C004C56C6 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		180A043723F5B65E004C56C6 /* WebServiceWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceWrapper.swift; sourceTree = "<group>"; };
-		180A043A23F5C3BC004C56C6 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
-		180A043C23F5C4BE004C56C6 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		180A044623F5CBF7004C56C6 /* BaskmartApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaskmartApi.swift; sourceTree = "<group>"; };
-		180A044923F5CCA2004C56C6 /* LoginModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModule.swift; sourceTree = "<group>"; };
-		1868090023FFA96F00EED435 /* SubscriptionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModule.swift; sourceTree = "<group>"; };
-		1868090223FFA9BC00EED435 /* MySubscriptionModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySubscriptionModule.swift; sourceTree = "<group>"; };
-		18BD8A2423FD002B009E2BA5 /* SignUpModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModule.swift; sourceTree = "<group>"; };
-		18BD8A2623FD0587009E2BA5 /* UserModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModule.swift; sourceTree = "<group>"; };
-		18BD8A2A23FD09E8009E2BA5 /* DeliveryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryModel.swift; sourceTree = "<group>"; };
-		18BD8A2C23FD09FB009E2BA5 /* ProductCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCategoryModel.swift; sourceTree = "<group>"; };
-		18BD8A2E23FD0A5D009E2BA5 /* PaymentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
-		18BD8A3023FD0A62009E2BA5 /* OrderSummaryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderSummaryModel.swift; sourceTree = "<group>"; };
-		18BD8A3223FD0A67009E2BA5 /* TrackOrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackOrderModel.swift; sourceTree = "<group>"; };
-		18BD8A3423FD0A76009E2BA5 /* ProductsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
-		18BD8A3623FD0A7C009E2BA5 /* CartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
-		18BD8A3823FD0A89009E2BA5 /* MySubscriptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySubscriptionModel.swift; sourceTree = "<group>"; };
-		18BD8A3A23FD0A8F009E2BA5 /* SubscriptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
-		18BD8A3C23FD0AA0009E2BA5 /* SliderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderModel.swift; sourceTree = "<group>"; };
-		18BD8A3E23FD0BBA009E2BA5 /* CustomerPaymentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerPaymentModel.swift; sourceTree = "<group>"; };
-		18BD8A4623FD270A009E2BA5 /* ProductModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModule.swift; sourceTree = "<group>"; };
-		18BD8A4823FE4C1B009E2BA5 /* SlotModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotModule.swift; sourceTree = "<group>"; };
-		18BD8A4A23FE4C47009E2BA5 /* CartModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModule.swift; sourceTree = "<group>"; };
-		18BD8A4C23FE4C90009E2BA5 /* PaymentModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModule.swift; sourceTree = "<group>"; };
-		18BD8A5023FE86C3009E2BA5 /* OrderModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModule.swift; sourceTree = "<group>"; };
+		18076EA824DFD60D002E0A91 /* Baskmart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baskmart.h; sourceTree = "<group>"; };
+		18076EAA24DFD60D002E0A91 /* WebServiceWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceWrapper.swift; sourceTree = "<group>"; };
+		18076EAB24DFD60D002E0A91 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		18076EAD24DFD60D002E0A91 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18076EAE24DFD60D002E0A91 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		18076EB024DFD60D002E0A91 /* ProductsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		18076EB124DFD60D002E0A91 /* MySubscriptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySubscriptionModel.swift; sourceTree = "<group>"; };
+		18076EB224DFD60D002E0A91 /* SubscriptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
+		18076EB324DFD60D002E0A91 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		18076EB424DFD60D002E0A91 /* TrackOrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackOrderModel.swift; sourceTree = "<group>"; };
+		18076EB524DFD60D002E0A91 /* CustomerPaymentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerPaymentModel.swift; sourceTree = "<group>"; };
+		18076EB624DFD60D002E0A91 /* PaymentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		18076EB724DFD60D002E0A91 /* SliderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderModel.swift; sourceTree = "<group>"; };
+		18076EB824DFD60D002E0A91 /* CartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		18076EB924DFD60D002E0A91 /* OrderSummaryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderSummaryModel.swift; sourceTree = "<group>"; };
+		18076EBA24DFD60D002E0A91 /* DeliveryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryModel.swift; sourceTree = "<group>"; };
+		18076EBB24DFD60D002E0A91 /* ProductCategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCategoryModel.swift; sourceTree = "<group>"; };
+		18076EBC24DFD60D002E0A91 /* BaskmartApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaskmartApi.swift; sourceTree = "<group>"; };
+		18076EBD24DFD60D002E0A91 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18076EBF24DFD60D002E0A91 /* CartModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartModule.swift; sourceTree = "<group>"; };
+		18076EC024DFD60D002E0A91 /* ProductModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductModule.swift; sourceTree = "<group>"; };
+		18076EC124DFD60D002E0A91 /* SlotModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotModule.swift; sourceTree = "<group>"; };
+		18076EC224DFD60D002E0A91 /* UserModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModule.swift; sourceTree = "<group>"; };
+		18076EC324DFD60D002E0A91 /* SignUpModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpModule.swift; sourceTree = "<group>"; };
+		18076EC424DFD60D002E0A91 /* SubscriptionModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionModule.swift; sourceTree = "<group>"; };
+		18076EC524DFD60D002E0A91 /* MySubscriptionModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySubscriptionModule.swift; sourceTree = "<group>"; };
+		18076EC624DFD60D002E0A91 /* LoginModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModule.swift; sourceTree = "<group>"; };
+		18076EC724DFD60D002E0A91 /* PaymentModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentModule.swift; sourceTree = "<group>"; };
+		18076EC824DFD60D002E0A91 /* OrderModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderModule.swift; sourceTree = "<group>"; };
+		"Baskmart::Baskmart::Product" /* Baskmart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Baskmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Baskmart::BaskmartTests::Product" /* BaskmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = BaskmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_12 /* BaskmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaskmartTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Baskmart.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Baskmart.framework; sourceTree = SOURCE_ROOT; };
+		OBJ_19 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_20 /* Baskmart.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Baskmart.podspec; sourceTree = "<group>"; };
+		OBJ_21 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		180A042323F5B5E8004C56C6 /* Frameworks */ = {
+		OBJ_28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_48 /* Baskmart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		180A041C23F5B5E8004C56C6 = {
+		18076EA924DFD60D002E0A91 /* Webservices */ = {
 			isa = PBXGroup;
 			children = (
-				180A042823F5B5E8004C56C6 /* Baskmart */,
-				180A042723F5B5E8004C56C6 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		180A042723F5B5E8004C56C6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				180A042623F5B5E8004C56C6 /* Baskmart.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		180A042823F5B5E8004C56C6 /* Baskmart */ = {
-			isa = PBXGroup;
-			children = (
-				180A044823F5CC91004C56C6 /* Modules */,
-				180A043923F5C3AB004C56C6 /* Models */,
-				180A043623F5B652004C56C6 /* Webservices */,
-				180A043123F5B613004C56C6 /* Common */,
-				180A043C23F5C4BE004C56C6 /* Configuration.swift */,
-				180A044623F5CBF7004C56C6 /* BaskmartApi.swift */,
-				180A042923F5B5E8004C56C6 /* Baskmart.h */,
-				180A042A23F5B5E8004C56C6 /* Info.plist */,
-			);
-			path = Baskmart;
-			sourceTree = "<group>";
-		};
-		180A043123F5B613004C56C6 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				180A043223F5B626004C56C6 /* Constants.swift */,
-				180A043423F5B62C004C56C6 /* Functions.swift */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		180A043623F5B652004C56C6 /* Webservices */ = {
-			isa = PBXGroup;
-			children = (
-				180A043723F5B65E004C56C6 /* WebServiceWrapper.swift */,
+				18076EAA24DFD60D002E0A91 /* WebServiceWrapper.swift */,
 			);
 			path = Webservices;
 			sourceTree = "<group>";
 		};
-		180A043923F5C3AB004C56C6 /* Models */ = {
+		18076EAC24DFD60D002E0A91 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				180A043A23F5C3BC004C56C6 /* LoginModel.swift */,
-				18BD8A3C23FD0AA0009E2BA5 /* SliderModel.swift */,
-				18BD8A2A23FD09E8009E2BA5 /* DeliveryModel.swift */,
-				18BD8A2C23FD09FB009E2BA5 /* ProductCategoryModel.swift */,
-				18BD8A2E23FD0A5D009E2BA5 /* PaymentModel.swift */,
-				18BD8A3023FD0A62009E2BA5 /* OrderSummaryModel.swift */,
-				18BD8A3223FD0A67009E2BA5 /* TrackOrderModel.swift */,
-				18BD8A3423FD0A76009E2BA5 /* ProductsModel.swift */,
-				18BD8A3623FD0A7C009E2BA5 /* CartModel.swift */,
-				18BD8A3823FD0A89009E2BA5 /* MySubscriptionModel.swift */,
-				18BD8A3A23FD0A8F009E2BA5 /* SubscriptionModel.swift */,
-				18BD8A3E23FD0BBA009E2BA5 /* CustomerPaymentModel.swift */,
+				18076EAD24DFD60D002E0A91 /* Constants.swift */,
+				18076EAE24DFD60D002E0A91 /* Functions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18076EAF24DFD60D002E0A91 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18076EB024DFD60D002E0A91 /* ProductsModel.swift */,
+				18076EB124DFD60D002E0A91 /* MySubscriptionModel.swift */,
+				18076EB224DFD60D002E0A91 /* SubscriptionModel.swift */,
+				18076EB324DFD60D002E0A91 /* LoginModel.swift */,
+				18076EB424DFD60D002E0A91 /* TrackOrderModel.swift */,
+				18076EB524DFD60D002E0A91 /* CustomerPaymentModel.swift */,
+				18076EB624DFD60D002E0A91 /* PaymentModel.swift */,
+				18076EB724DFD60D002E0A91 /* SliderModel.swift */,
+				18076EB824DFD60D002E0A91 /* CartModel.swift */,
+				18076EB924DFD60D002E0A91 /* OrderSummaryModel.swift */,
+				18076EBA24DFD60D002E0A91 /* DeliveryModel.swift */,
+				18076EBB24DFD60D002E0A91 /* ProductCategoryModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		180A044823F5CC91004C56C6 /* Modules */ = {
+		18076EBE24DFD60D002E0A91 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				180A044923F5CCA2004C56C6 /* LoginModule.swift */,
-				18BD8A2423FD002B009E2BA5 /* SignUpModule.swift */,
-				18BD8A2623FD0587009E2BA5 /* UserModule.swift */,
-				18BD8A4623FD270A009E2BA5 /* ProductModule.swift */,
-				18BD8A4823FE4C1B009E2BA5 /* SlotModule.swift */,
-				18BD8A4A23FE4C47009E2BA5 /* CartModule.swift */,
-				18BD8A4C23FE4C90009E2BA5 /* PaymentModule.swift */,
-				18BD8A5023FE86C3009E2BA5 /* OrderModule.swift */,
-				1868090023FFA96F00EED435 /* SubscriptionModule.swift */,
-				1868090223FFA9BC00EED435 /* MySubscriptionModule.swift */,
+				18076EBF24DFD60D002E0A91 /* CartModule.swift */,
+				18076EC024DFD60D002E0A91 /* ProductModule.swift */,
+				18076EC124DFD60D002E0A91 /* SlotModule.swift */,
+				18076EC224DFD60D002E0A91 /* UserModule.swift */,
+				18076EC324DFD60D002E0A91 /* SignUpModule.swift */,
+				18076EC424DFD60D002E0A91 /* SubscriptionModule.swift */,
+				18076EC524DFD60D002E0A91 /* MySubscriptionModule.swift */,
+				18076EC624DFD60D002E0A91 /* LoginModule.swift */,
+				18076EC724DFD60D002E0A91 /* PaymentModule.swift */,
+				18076EC824DFD60D002E0A91 /* OrderModule.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* BaskmartTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* BaskmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* BaskmartTests.swift */,
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			name = BaskmartTests;
+			path = Tests/BaskmartTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Baskmart::Baskmart::Product" /* Baskmart.framework */,
+				"Baskmart::BaskmartTests::Product" /* BaskmartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Products */,
+				OBJ_17 /* Baskmart.framework */,
+				OBJ_19 /* LICENSE */,
+				OBJ_20 /* Baskmart.podspec */,
+				OBJ_21 /* README.md */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Baskmart */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Baskmart */ = {
+			isa = PBXGroup;
+			children = (
+				18076EA824DFD60D002E0A91 /* Baskmart.h */,
+				18076EBC24DFD60D002E0A91 /* BaskmartApi.swift */,
+				18076EAC24DFD60D002E0A91 /* Common */,
+				18076EAB24DFD60D002E0A91 /* Configuration.swift */,
+				18076EBD24DFD60D002E0A91 /* Info.plist */,
+				18076EAF24DFD60D002E0A91 /* Models */,
+				18076EBE24DFD60D002E0A91 /* Modules */,
+				18076EA924DFD60D002E0A91 /* Webservices */,
+			);
+			name = Baskmart;
+			path = Sources/Baskmart;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		180A042123F5B5E8004C56C6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				180A042B23F5B5E8004C56C6 /* Baskmart.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		180A042523F5B5E8004C56C6 /* Baskmart */ = {
+		"Baskmart::Baskmart" /* Baskmart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 180A042E23F5B5E8004C56C6 /* Build configuration list for PBXNativeTarget "Baskmart" */;
+			buildConfigurationList = OBJ_23 /* Build configuration list for PBXNativeTarget "Baskmart" */;
 			buildPhases = (
-				180A042123F5B5E8004C56C6 /* Headers */,
-				180A042223F5B5E8004C56C6 /* Sources */,
-				180A042323F5B5E8004C56C6 /* Frameworks */,
-				180A042423F5B5E8004C56C6 /* Resources */,
+				OBJ_26 /* Sources */,
+				OBJ_28 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,283 +266,375 @@
 			);
 			name = Baskmart;
 			productName = Baskmart;
-			productReference = 180A042623F5B5E8004C56C6 /* Baskmart.framework */;
+			productReference = "Baskmart::Baskmart::Product" /* Baskmart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Baskmart::BaskmartTests" /* BaskmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_41 /* Build configuration list for PBXNativeTarget "BaskmartTests" */;
+			buildPhases = (
+				OBJ_44 /* Sources */,
+				OBJ_47 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_49 /* PBXTargetDependency */,
+			);
+			name = BaskmartTests;
+			productName = BaskmartTests;
+			productReference = "Baskmart::BaskmartTests::Product" /* BaskmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Baskmart::SwiftPMPackageDescription" /* BaskmartPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_30 /* Build configuration list for PBXNativeTarget "BaskmartPackageDescription" */;
+			buildPhases = (
+				OBJ_33 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaskmartPackageDescription;
+			productName = BaskmartPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		180A041D23F5B5E8004C56C6 /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = Zuper;
-				TargetAttributes = {
-					180A042523F5B5E8004C56C6 = {
-						CreatedOnToolsVersion = 11.3.1;
-						LastSwiftMigration = 1130;
-					};
-				};
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 180A042023F5B5E8004C56C6 /* Build configuration list for PBXProject "Baskmart" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Baskmart" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 180A041C23F5B5E8004C56C6;
-			productRefGroup = 180A042723F5B5E8004C56C6 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				180A042523F5B5E8004C56C6 /* Baskmart */,
+				"Baskmart::Baskmart" /* Baskmart */,
+				"Baskmart::SwiftPMPackageDescription" /* BaskmartPackageDescription */,
+				"Baskmart::BaskmartPackageTests::ProductTarget" /* BaskmartPackageTests */,
+				"Baskmart::BaskmartTests" /* BaskmartTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		180A042423F5B5E8004C56C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
 			files = (
+				18076ED424DFD60D002E0A91 /* SliderModel.swift in Sources */,
+				18076EDB24DFD60D002E0A91 /* ProductModule.swift in Sources */,
+				18076EDA24DFD60D002E0A91 /* CartModule.swift in Sources */,
+				18076ED124DFD60D002E0A91 /* TrackOrderModel.swift in Sources */,
+				18076EDF24DFD60D002E0A91 /* SubscriptionModule.swift in Sources */,
+				18076EE324DFD60D002E0A91 /* OrderModule.swift in Sources */,
+				18076ED324DFD60D002E0A91 /* PaymentModel.swift in Sources */,
+				18076ECF24DFD60D002E0A91 /* SubscriptionModel.swift in Sources */,
+				18076ECA24DFD60D002E0A91 /* Configuration.swift in Sources */,
+				18076EE224DFD60D002E0A91 /* PaymentModule.swift in Sources */,
+				18076ED824DFD60D002E0A91 /* ProductCategoryModel.swift in Sources */,
+				18076ED624DFD60D002E0A91 /* OrderSummaryModel.swift in Sources */,
+				18076ECD24DFD60D002E0A91 /* ProductsModel.swift in Sources */,
+				18076ED924DFD60D002E0A91 /* BaskmartApi.swift in Sources */,
+				18076ECE24DFD60D002E0A91 /* MySubscriptionModel.swift in Sources */,
+				18076EE124DFD60D002E0A91 /* LoginModule.swift in Sources */,
+				18076ED724DFD60D002E0A91 /* DeliveryModel.swift in Sources */,
+				18076EE024DFD60D002E0A91 /* MySubscriptionModule.swift in Sources */,
+				18076EC924DFD60D002E0A91 /* WebServiceWrapper.swift in Sources */,
+				18076ED024DFD60D002E0A91 /* LoginModel.swift in Sources */,
+				18076EDC24DFD60D002E0A91 /* SlotModule.swift in Sources */,
+				18076ED524DFD60D002E0A91 /* CartModel.swift in Sources */,
+				18076ECB24DFD60D002E0A91 /* Constants.swift in Sources */,
+				18076EDD24DFD60D002E0A91 /* UserModule.swift in Sources */,
+				18076ED224DFD60D002E0A91 /* CustomerPaymentModel.swift in Sources */,
+				18076ECC24DFD60D002E0A91 /* Functions.swift in Sources */,
+				18076EDE24DFD60D002E0A91 /* SignUpModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		180A042223F5B5E8004C56C6 /* Sources */ = {
+		OBJ_33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				180A043323F5B626004C56C6 /* Constants.swift in Sources */,
-				18BD8A2D23FD09FB009E2BA5 /* ProductCategoryModel.swift in Sources */,
-				18BD8A2F23FD0A5D009E2BA5 /* PaymentModel.swift in Sources */,
-				18BD8A3523FD0A76009E2BA5 /* ProductsModel.swift in Sources */,
-				18BD8A2523FD002B009E2BA5 /* SignUpModule.swift in Sources */,
-				18BD8A4923FE4C1B009E2BA5 /* SlotModule.swift in Sources */,
-				180A043D23F5C4BE004C56C6 /* Configuration.swift in Sources */,
-				1868090323FFA9BC00EED435 /* MySubscriptionModule.swift in Sources */,
-				18BD8A3123FD0A62009E2BA5 /* OrderSummaryModel.swift in Sources */,
-				18BD8A2723FD0587009E2BA5 /* UserModule.swift in Sources */,
-				18BD8A3923FD0A89009E2BA5 /* MySubscriptionModel.swift in Sources */,
-				18BD8A4723FD270A009E2BA5 /* ProductModule.swift in Sources */,
-				18BD8A5123FE86C3009E2BA5 /* OrderModule.swift in Sources */,
-				18BD8A3B23FD0A8F009E2BA5 /* SubscriptionModel.swift in Sources */,
-				180A043B23F5C3BC004C56C6 /* LoginModel.swift in Sources */,
-				18BD8A2B23FD09E8009E2BA5 /* DeliveryModel.swift in Sources */,
-				18BD8A3D23FD0AA0009E2BA5 /* SliderModel.swift in Sources */,
-				18BD8A3723FD0A7C009E2BA5 /* CartModel.swift in Sources */,
-				180A044A23F5CCA2004C56C6 /* LoginModule.swift in Sources */,
-				180A043823F5B65E004C56C6 /* WebServiceWrapper.swift in Sources */,
-				18BD8A4D23FE4C90009E2BA5 /* PaymentModule.swift in Sources */,
-				1868090123FFA96F00EED435 /* SubscriptionModule.swift in Sources */,
-				180A043523F5B62C004C56C6 /* Functions.swift in Sources */,
-				18BD8A4B23FE4C47009E2BA5 /* CartModule.swift in Sources */,
-				18BD8A3323FD0A67009E2BA5 /* TrackOrderModel.swift in Sources */,
-				18BD8A3F23FD0BBA009E2BA5 /* CustomerPaymentModel.swift in Sources */,
-				180A044723F5CBF7004C56C6 /* BaskmartApi.swift in Sources */,
+				OBJ_34 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_45 /* BaskmartTests.swift in Sources */,
+				OBJ_46 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		OBJ_39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Baskmart::BaskmartTests" /* BaskmartTests */;
+			targetProxy = 18076EA724DFD5DE002E0A91 /* PBXContainerItemProxy */;
+		};
+		OBJ_49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Baskmart::Baskmart" /* Baskmart */;
+			targetProxy = 18076EA624DFD5C9002E0A91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		180A042C23F5B5E8004C56C6 /* Debug */ = {
+		OBJ_24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Baskmart.xcodeproj/Baskmart_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Baskmart;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Baskmart;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		180A042D23F5B5E8004C56C6 /* Release */ = {
+		OBJ_25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Baskmart.xcodeproj/Baskmart_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Baskmart;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Baskmart;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		180A042F23F5B5E8004C56C6 /* Debug */ = {
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HKFNV2JRF8;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Baskmart/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zuper.Baskmart;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		180A043023F5B5E8004C56C6 /* Release */ = {
+		OBJ_31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HKFNV2JRF8;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Baskmart/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zuper.Baskmart;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		OBJ_32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Baskmart.xcodeproj/BaskmartTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = BaskmartTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Baskmart.xcodeproj/BaskmartTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = BaskmartTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		180A042023F5B5E8004C56C6 /* Build configuration list for PBXProject "Baskmart" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "Baskmart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				180A042C23F5B5E8004C56C6 /* Debug */,
-				180A042D23F5B5E8004C56C6 /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		180A042E23F5B5E8004C56C6 /* Build configuration list for PBXNativeTarget "Baskmart" */ = {
+		OBJ_23 /* Build configuration list for PBXNativeTarget "Baskmart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				180A042F23F5B5E8004C56C6 /* Debug */,
-				180A043023F5B5E8004C56C6 /* Release */,
+				OBJ_24 /* Debug */,
+				OBJ_25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_30 /* Build configuration list for PBXNativeTarget "BaskmartPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_31 /* Debug */,
+				OBJ_32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_36 /* Build configuration list for PBXAggregateTarget "BaskmartPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_37 /* Debug */,
+				OBJ_38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_41 /* Build configuration list for PBXNativeTarget "BaskmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_42 /* Debug */,
+				OBJ_43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 180A041D23F5B5E8004C56C6 /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }
