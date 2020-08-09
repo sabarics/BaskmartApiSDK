@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Baskmart"
-  spec.version      = "1.0.8"
+  spec.version      = "1.0.7"
   spec.summary      = "Baskmart allows to access all baskmart API"
 
   # This description is used to generate tags and improve search results.
@@ -88,6 +88,7 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
+
 
 
   spec.source_files  = "Baskmart/**/*.swift"
