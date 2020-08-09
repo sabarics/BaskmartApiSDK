@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Baskmart"
-  spec.version      = "1.0.7"
+  spec.version      = "1.0.14"
   spec.summary      = "Baskmart allows to access all baskmart API"
 
   # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Baskmart/**/*.{h,m,swift}"
+  spec.source_files  = "Sources/**/*.swift"
   spec.exclude_files = "Classes/Exclude"
 
   spec.platform     = :ios, "11.0"
